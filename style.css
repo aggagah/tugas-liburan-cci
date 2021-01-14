@@ -1,0 +1,204 @@
+/* Import fonts */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Varela Round", sans-serif;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background-color: #f9f9f9;
+}
+
+section.home {
+    position: relative;
+    height: 90vh;
+    width: 100vw;
+    background: url(img/bg.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+section.home nav .container a.navbar-brand {
+    color: #030303;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 28px;
+}
+
+section.home nav .container .collapse li.nav-item a {
+    color: #030303;
+}
+
+section.home nav .container .collapse form button {
+    color: #f0f0f0;
+    border: 1px solid #f0f0f0;
+}
+section.home nav .container .collapse form button:hover {
+    color: #030303;
+    background-color: #f0f0f0;
+}
+
+section.home .container#home {
+    position: relative;
+    height: 90vh;
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section.home .container#home .text {
+    position: relative;
+    width: 40%;
+    height: auto;
+}
+
+section.home .container#home .illustration {
+    position: relative;
+    width: 60%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+section.home .container#home .illustration img {
+    transform: scale(0.6);
+}
+
+section.web-article {
+    position: relative;
+    width: 100vw;
+    height: auto;
+    background: url(img/bg2.svg);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+section.web-article h2,
+section.mobile-article h2 {
+    text-align: center;
+    font-family: "Fjalla One", sans-serif;
+    font-size: 40px;
+}
+
+section.web-article .container,
+section.mobile-article .container {
+    position: relative;
+    margin: 0 auto;
+}
+
+section.web-article .container .card,
+section.mobile-article .container .card {
+    margin: 10px auto;
+}
+
+section.web-article .container .card .row,
+section.mobile-article .container .card .row {
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+section.web-article .container .card .row .col-md-4 img {
+    width: 300px;
+    height: 300px;
+}
+
+section.web-article .container .card .row .col-md-8 .card-body h5,
+section.mobile-article .container .card .row .col-md-8 .card-body h5 {
+    font-size: 30px;
+}
+
+section.web-article .container .card .row .col-md-8 .card-body a,
+section.mobile-article .container .card .row .col-md-8 .card-body a {
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    border: 1px solid #1de886;
+    transition: 0.3s;
+    color: #030303;
+}
+
+section.web-article .container .card .row .col-md-8 .card-body a:hover,
+section.mobile-article .container .card .row .col-md-8 .card-body a:hover {
+    background-color: #1de886;
+    color: #fff;
+    transition: 0.3s;
+}
+
+section.mobile-article {
+    margin-top: 100px;
+    position: relative;
+    width: 100vw;
+    height: auto;
+    background: url(img/bg3.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+section.mobile-article .container .card .row .col-md-4 img {
+    width: 300px;
+    height: 300px;
+    padding: 15px 20px;
+}
+
+footer {
+    position: relative;
+    width: 100vw;
+    height: 200px;
+    /* background-color: #f1f1f1; */
+    border-top: 1px solid #044ffc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px 0;
+    margin-top: 100px;
+}
+
+footer h3 {
+    text-align: center;
+    font-family: "Fjalla One", sans-serif;
+}
+
+footer .container#soc-med {
+    position: relative;
+    height: 90%;
+    margin: 5px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer .container#soc-med a {
+    transform: scale(1.8);
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+footer .container#soc-med a.fa.fa-github {
+    color: #24292e;
+}
+
+footer .container#soc-med a.fa.fa-twitter {
+    color: #55acee;
+}
+
+footer .container#soc-med a.fa.fa-instagram {
+    color: #e4405f;
+}
+
+footer .container#soc-med a span {
+    color: #020202;
+    font-size: 14px;
+}
+footer p {
+    text-align: center;
+}
