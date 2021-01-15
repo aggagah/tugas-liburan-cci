@@ -1,7 +1,7 @@
 @media screen and (max-width: 768px) {
     section.home {
         height: 75vh;
-        background-size: 90%;
+        background-size: 93%;
         background-position-y: 0;
     }
 
@@ -9,6 +9,7 @@
         height: 50vh;
         color: #f0f0f0;
     }
+
     section.home .container#home .illustration {
         display: none;
     }
@@ -16,6 +17,18 @@
     section.home .container#home .text {
         width: 100%;
         margin: auto;
+        text-align: center;
+    }
+
+    section.web-article .container .card .row.g-0 .col-md-4,
+    section.mobile-article .container .card .row.g-0 .col-md-4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section.web-article .container .card .row.g-0 .col-md-8,
+    section.mobile-article .container .card .row.g-0 .col-md-8 {
         text-align: center;
     }
 
@@ -35,6 +48,11 @@
         background-size: 95%;
     }
 
+    section.home .container#home {
+        height: 40vh;
+        color: #f0f0f0;
+    }
+
     section.web-article .container .card .row.g-0 .col-md-4,
     section.mobile-article .container .card .row.g-0 .col-md-4 {
         display: flex;
@@ -45,5 +63,13 @@
     section.web-article .container .card .row.g-0 .col-md-8,
     section.mobile-article .container .card .row.g-0 .col-md-8 {
         text-align: center;
+    }
+
+    footer .container#soc-med a span {
+        font-size: 10px;
+    }
+
+    footer p {
+        font-size: 10px;
     }
 }

@@ -32,6 +32,18 @@ section.home nav .container a.navbar-brand {
     font-size: 28px;
 }
 
+section.home nav .container .collapse ul.navbar-nav li.nav-item a#home::after {
+    content: "";
+    display: block;
+    margin: auto;
+    width: 20px;
+    border-bottom: 1px solid #030303;
+}
+
+section.home nav .container .collapse li.nav-item {
+    font-size: 20px;
+}
+
 section.home nav .container .collapse li.nav-item a {
     color: #030303;
 }
@@ -152,13 +164,12 @@ section.mobile-article .container .card .row .col-md-4 img {
 footer {
     position: relative;
     width: 100vw;
-    height: 200px;
-    /* background-color: #f1f1f1; */
+    height: 150px;
     border-top: 1px solid #044ffc;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 15px 0;
+    padding: 15px 0 2px 0;
     margin-top: 100px;
 }
 
@@ -201,4 +212,38 @@ footer .container#soc-med a span {
 }
 footer p {
     text-align: center;
+    font-size: 14px;
+}
+
+/* * HTML PAGE */
+section.html-article {
+    position: relative;
+    height: 90vh;
+    width: 100vw;
+    background: url(img/bg.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+section.html-article nav .container a.navbar-brand {
+    color: #030303;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 28px;
+}
+
+section.html-article nav .container .collapse li.nav-item {
+    font-size: 20px;
+}
+
+section.html-article nav .container .collapse li.nav-item a {
+    color: #030303;
+}
+
+section.html-article nav .container .collapse form button {
+    color: #f0f0f0;
+    border: 1px solid #f0f0f0;
+}
+section.html-article nav .container .collapse form button:hover {
+    color: #030303;
+    background-color: #f0f0f0;
 }
