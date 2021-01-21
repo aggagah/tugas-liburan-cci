@@ -40,11 +40,11 @@ section.home nav .container .collapse ul.navbar-nav li.nav-item a#home::after {
     border-bottom: 1px solid #030303;
 }
 
-section.home nav .container .collapse li.nav-item {
+section.home nav .container .collapse ul li.nav-item {
     font-size: 20px;
 }
 
-section.home nav .container .collapse li.nav-item a {
+section.home nav .container .collapse ul li.nav-item a {
     color: #030303;
 }
 
@@ -163,6 +163,7 @@ section.mobile-article .container .card .row .col-md-4 img {
 
 footer {
     position: relative;
+    bottom: 0;
     width: 100vw;
     height: 150px;
     border-top: 1px solid #044ffc;
@@ -217,7 +218,7 @@ footer p {
 
 /* * HTML PAGE */
 section.html-article {
-    position: relative;
+    position: absolute;
     height: 90vh;
     width: 100vw;
     background: url(img/bg.svg);
@@ -231,11 +232,11 @@ section.html-article nav .container a.navbar-brand {
     font-size: 28px;
 }
 
-section.html-article nav .container .collapse li.nav-item {
+section.html-article nav .container .collapse ul li.nav-item {
     font-size: 20px;
 }
 
-section.html-article nav .container .collapse li.nav-item a {
+section.html-article nav .container .collapse ul li.nav-item a {
     color: #030303;
 }
 
@@ -246,4 +247,97 @@ section.html-article nav .container .collapse form button {
 section.html-article nav .container .collapse form button:hover {
     color: #030303;
     background-color: #f0f0f0;
+}
+
+section.html-article .container#html {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+section.html-article .container#html .left {
+    position: relative;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    background-color: #ffffff;
+    padding: 10px 40px;
+    color: #484848;
+    border-radius: 10px;
+}
+
+section.html-article .container#html .left img {
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;
+}
+
+section.html-article .container#html .left h5 {
+    font-size: 10px;
+    border-top: 0.5px solid #303030;
+    border-bottom: 0.5px solid #303030;
+    padding: 10px;
+}
+
+section.html-article .container#html .left h2.title {
+    font-family: "Fjalla One", sans-serif;
+    font-size: 40px;
+    color: #24292e;
+}
+
+section.html-article .container#html .left p {
+    text-indent: 40px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+section.html-article .container#html .left h3 {
+    font-family: "Fjalla One", sans-serif;
+    font-size: 40px;
+    color: #24292e;
+    margin-top: 50px;
+}
+
+section.html-article .container#html .right {
+    position: relative;
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+section.html-article .container#html .right .container.related {
+    background-color: #ffffff;
+    padding: 10px;
+    color: #484848;
+    border-radius: 10px;
+}
+
+section.html-article .container#html .right .container.related h2 {
+    text-align: center;
+    color: #24292e;
+}
+
+section.html-article .container#html .right .container.related .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 1px solid #303030;
+}
+
+section.html-article .container#html .right .container.related .card img {
+    width: 150px;
+    height: 150px;
+}
+
+section.html-article .container#html .right .comment {
+    margin-top: 50px;
+    background-color: #ffffff;
+    padding: 10px;
+    color: #484848;
+    border-radius: 10px;
 }
