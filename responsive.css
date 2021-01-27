@@ -41,6 +41,24 @@
     footer .container#soc-med a span {
         font-size: 12px;
     }
+
+    /**HTML PAGE **/
+    section.html-article {
+        background-size: 80%;
+    }
+
+    section.html-article .container#html {
+        flex-direction: column;
+    }
+
+    section.html-article .container#html .left {
+        width: 100%;
+    }
+
+    section.html-article .container#html .right {
+        width: 100%;
+        margin-top: 100px;
+    }
 }
 
 @media screen and (max-width: 576px) {

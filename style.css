@@ -218,12 +218,11 @@ footer p {
 
 /* * HTML PAGE */
 section.html-article {
-    position: absolute;
-    height: 90vh;
+    position: relative;
+    height: 100%;
     width: 100vw;
-    background: url(img/bg.svg);
-    background-repeat: no-repeat;
-    background-position: right;
+    background: url(img/bg2.svg) left bottom no-repeat, url(img/bg.svg) right top no-repeat;
+    background-size: 50%;
 }
 
 section.html-article nav .container a.navbar-brand {
@@ -323,7 +322,6 @@ section.html-article .container#html .right .container.related h2 {
 section.html-article .container#html .right .container.related .card {
     display: flex;
     justify-content: center;
-    align-items: center;
     margin: 10px 0;
     border: none;
     border-bottom: 1px solid #303030;
@@ -332,6 +330,7 @@ section.html-article .container#html .right .container.related .card {
 section.html-article .container#html .right .container.related .card img {
     width: 150px;
     height: 150px;
+    margin: auto;
 }
 
 section.html-article .container#html .right .comment {
