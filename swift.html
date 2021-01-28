@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>SWIFT - Ngoding</title>
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
+
+        <!-- My CSS -->
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="responsive.css" />
+
+        <!-- Icon -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    </head>
+    <body>
+        <section class="article-page">
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">NGODING</a>
+                    <button style="border: 1px solid #f0f0f0" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html" id="home">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Category </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="index.html#web">Web Development</a></li>
+                                    <li><a class="dropdown-item" href="index.html#mobile">Mobile App Development</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="container" id="swift">
+                <div class="left">
+                    <img src="img/swift.png" />
+                    <h5>Posted on January 5th 2021 by Admin</h5>
+                    <h2 class="title">SWIFT</h2>
+                    <p>
+                        Apple recently promoted Swift - a new programming language for iOS and OSX development, to version 1.0. Apple’s Swift is not to be mistaken with the older parallel scripting language. Swift comes to make iOS and OSX development simpler and more fun. In this article, I will
+                        explain what I think are the top 5 killer features of Swift; and why - while it is still in beta - it’s absolutely worth checking out.
+                    </p>
+                    <p>
+                        Apple already had a programming language, Objective-C. So why introduce yet another programming language? Well, while Objective-C might have been quite different and modern when it was created, it does not convey today’s taste for languages. On the consumer side for example,
+                        scripting languages like Ruby have been highly adopted to a large extent thanks to the clean syntax that the language offers. In the enterprise world, strongly typed (type safe) languages with type inference seem to be preferred and big efforts have been seen in languages
+                        like C# and Java (or Scala) to bring concepts typically found in functional languages like functions as objects and Lambdas. Objective-C is lacking some of these things like a clean syntax (and Syntactic sugar) and type inference. Swift tries to fill this gap.
+                    </p>
+                    <p>
+                        This is not to say that Objective-C is not a good programming language. As a matter of fact, it is a great language. But I do see clear signals of enough room for alternatives to Objective-C to succeed. To take things even further, and thanks to how good Swift is, I wouldn’t
+                        be surprised if the adoption of Swift s spreads like wildfire.
+                    </p>
+                    <p>
+                        Now let’s focus on what Swift has to offer. From a language perspective, Swift is awesome. Apple took note of modern languages like Scala or C# and built a super simple and yet powerful language. It provides a super sweet mix between object-oriented and functional programming
+                        paradigms - saying that Swift is a functional language is a big stretch though. Let’s move on to the top 5 killer features of Swift.
+                    </p>
+
+                    <h3>#1: Syntax Goodies</h3>
+                    <p>
+                        Syntactically speaking, Swift is superb. It is an extremely simple and clean language with an awesome readability even by today’s standards. You can see right away that simplicity was key when designing the language. Take for instance, the famous semi-colon at the end of
+                        statements. Apple decided to make it optional. While it may not seem extremely relevant, it conveys the effort they did to keep the syntax as clean as possible.
+                    </p>
+                    <p>
+                        If you want to learn Swift, and test some of these sample codes, I couldn’t stress enough how cool the new Playground in Xcode 6 is. The Playground allows you to test your code as you are typing it in real-time. It will execute everything you type in the Playground, and give
+                        detailed information about the values of the variables, the returned values of function calls, and how many times specific code blocks were executed.
+                    </p>
+
+                    <h3>#2: Functions are First-Class Objects</h3>
+                    <p>
+                        Functions as first-class objects and higher-order functions, can be found in more and more languages. For example, Java 8 recently introduced Lambdas. The concept is simple, let functions take other functions as parameters, and/or return functions as well. In it’s simplicity
+                        lays the power of this concept, since it allows for greater abstractions. Take a “filter” function applied to an array as an example. A filter function allows you to filter a given array based on which of those items meet a certain criteria passed as a parameter. The key for
+                        having a super generic method, is to be able to receive a function as a parameter. Let’s go through the syntax for defining functions.
+                    </p>
+                    <p>
+                        Swift has a syntax for defining Functions that somewhat resembles those from typically functional languages like Haskell (it’s not exactly the same, but similar). On the left side of an arrow (->) you have the parameters and on the right side of the arrow you have the return
+                        Type. In our example, we want to filter a list of numbers, so based on a given number we want to return a Bool.
+                    </p>
+
+                    <h3>#3: Strongly-Typed with Type Inference</h3>
+                    <p>
+                        In the enterprise world, we are very much accustomed to working on top of our strongly typed (or type safe) safety net. While strongly typed languages can give you that extra bit of confidence that (usually) things won’t break if they compile, it is typically a better
+                        experience when these languages also do type inference.
+                    </p>
+
+                    <h3>#4 Generics</h3>
+                    <p>
+                        Another feature available in the language, which can be extremely handy, is generics. In the enterprise world, generics were first introduced in C#, and later made it to Java after gaining a lot of traction. Using generics you can sometimes get rid of type casts. They allow
+                        the compiler to run certain type checks usually not available in languages without generics (it’s also true that generics did generate some controversy when introduced in C#, but it was overall accepted in the C# and Java communities).
+                    </p>
+                    <p>
+                        You might think generics in Swift are like protocols in Objective-C, however despite the similarities in the syntax, the concepts are quite different. Objective-C does not support generics. Protocols provide a way to declare that a certain implementation conforms to a
+                        messaging contract, but the contract has to be specified in advance. For example, you can't enforce that every item in an array be of the same type (no matter which type) with protocols, but can you can do that with generics. Apart from the fact that these two concepts are
+                        different, Swift does support protocols in pretty much the same way to how Objective-C does.
+                    </p>
+                </div>
+                <div class="right">
+                    <div class="container related">
+                        <h2>Related articles</h2>
+                        <div class="card" style="width: 100%">
+                            <img src="img/python.png" class="card-img-top" />
+                            <div class="card-body">
+                                <h5 class="card-title">PYTHON</h5>
+                                <p class="card-text">Python programming language was considered a gap-filler, a way to write scripts that...</p>
+                                <a href="python.html" class="btn btn-primary">Read more...</a>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 100%">
+                            <img src="img/kotlin.png" class="card-img-top" />
+                            <div class="card-body">
+                                <h5 class="card-title">KOTLIN</h5>
+                                <p class="card-text">Kotlin is a general-purpose language that supports both functional programming and...</p>
+                                <a href="kotlin.html" class="btn btn-primary">Read more...</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="comment">
+                        <h3>Leave Your Comment</h3>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Comment</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <a href="#" class="btn btn-primary">Post</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <h3>Follow us</h3>
+            <div class="container" id="soc-med">
+                <a target="blank" href="https://github.com/aggagah" class="fa fa-github" aria-hidden="true"> <span>aggagah</span></a>
+                <a target="blank" href="https://twitter.com/gagxyz" class="fa fa-twitter" aria-hidden="true"> <span>gagxyz</span></a>
+                <a target="blank" href="https://www.instagram.com/ag.gagah" class="fa fa-instagram" aria-hidden="true"> <span>ag.gagah</span></a>
+            </div>
+            <p>&copy; 2021. Gagah Aji Gunadi</p>
+        </footer>
+
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    </body>
+</html>
