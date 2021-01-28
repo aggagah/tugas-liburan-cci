@@ -42,20 +42,35 @@
         font-size: 12px;
     }
 
-    /**HTML PAGE **/
-    section.html-article {
+    /**ARTICLE PAGE **/
+    section.article-page {
         background-size: 80%;
     }
 
-    section.html-article .container#html {
+    section.article-page .container#html,
+    section.article-page .container#css,
+    section.article-page .container#js,
+    section.article-page .container#python,
+    section.article-page .container#swift,
+    section.article-page .container#kotlin {
         flex-direction: column;
     }
 
-    section.html-article .container#html .left {
+    section.article-page .container#html .left,
+    section.article-page .container#css .left,
+    section.article-page .container#js .left,
+    section.article-page .container#python .left,
+    section.article-page .container#swift .left,
+    section.article-page .container#kotlin .left {
         width: 100%;
     }
 
-    section.html-article .container#html .right {
+    section.article-page .container#html .right,
+    section.article-page .container#css .right,
+    section.article-page .container#js .right,
+    section.article-page .container#python .right,
+    section.article-page .container#swift .right,
+    section.article-page .container#kotlin .right {
         width: 100%;
         margin-top: 100px;
     }
