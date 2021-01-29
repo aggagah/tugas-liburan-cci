@@ -334,7 +334,8 @@ section.article-page .container#kotlin .left h3 {
     margin-top: 50px;
 }
 
-section.article-page .container#python .left ol li b {
+section.article-page .container#python .left ol li b,
+section.article-page .container#kotlin .left ol li b {
     font-size: 20px;
 }
 
