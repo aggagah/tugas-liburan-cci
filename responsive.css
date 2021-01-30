@@ -105,4 +105,25 @@
     footer p {
         font-size: 10px;
     }
+
+    section.login {
+        background-size: 70%;
+    }
+
+    section.login .container#login form {
+        padding: 10px 50px;
+    }
+
+    section.login .container#login form h3 {
+        font-size: 35px;
+    }
+
+    section.login .container#login form p {
+        font-size: 10px;
+    }
+
+    section.login .container#login form button {
+        margin: 0 auto;
+        width: 50%;
+    }
 }
