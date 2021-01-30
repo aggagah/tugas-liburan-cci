@@ -1,12 +1,12 @@
-					TUGAS WEBSITE SEDERHANA CCI Webdev 2020 Telkom University
-
+**TUGAS WEBSITE SEDERHANA CCI Webdev 2020 Telkom University**
 
 Tugas ini dibuat dengan menggunakan HTML dan CSS dan framework CSS BOOTSTRAP versi 5.
+
 Untuk menggunakan kode, anda harus terhubung dengan internet agar Bootstrap bisa digunakan.
 
---------------------------------------------------------------------------------------
+---
 
-Isi article dari html, css, js, python, swift, dan kotlin page diambil dari website berikut:
+Isi artikel dari html, css, js, python, swift, dan kotlin page diambil dari website berikut:
 
 1. HTML : https://www.hostinger.com/tutorials/what-is-html
 2. CSS : https://www.hostinger.com/tutorials/what-is-css
@@ -20,14 +20,8 @@ Kritik dan saran akan sangat berguna.
 Terima kasih ;)
 
 
-Jangan lupa follow media sosial saya
+Instagram: 
 
-Instagram : 
+[@ag.gagah](https://www.instagram.com/ag.gagah/)
 
-	@aggagah
-            
-https://www.instagram.com/ag.gagah/
-
-	@agproject__
-            
-https://www.instagram.com/agproject__/
+[@agproject__](https://www.instagram.com/agproject__/)
