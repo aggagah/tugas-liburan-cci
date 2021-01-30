@@ -1,4 +1,4 @@
-						TUGAS WEBSITE SEDERHANA CCI Webdev 2020 Telkom University
+				TUGAS WEBSITE SEDERHANA CCI Webdev 2020 Telkom University
 
 
 Tugas ini dibuat dengan menggunakan HTML dan CSS dan framework CSS BOOTSTRAP versi 5.
