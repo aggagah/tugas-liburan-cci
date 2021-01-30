@@ -15,6 +15,10 @@ Isi artikel dari html, css, js, python, swift, dan kotlin page diambil dari webs
 5. SWIFT : https://www.infoq.com/articles/apple-swift/
 6. KOTLIN : https://magdamiu.medium.com/hello-kotlin-774b44cd9df0
 
+Gambar illustrasi pada home page diambil dari [unDraw](https://undraw.co/illustrations)
+
+---
+
 Kritik dan saran akan sangat berguna.
 
 Terima kasih ;)
